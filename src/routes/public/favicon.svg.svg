@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .frame { fill: #111827; }
+    .screen { fill: #3b82f6; }
+    @media (prefers-color-scheme: dark) {
+      .frame { fill: #ffffff; }
+      .screen { fill: #60a5fa; }
+    }
+  </style>
+
+  <rect class="frame" x="8" y="10" width="48" height="34" rx="5"/>
+  <rect class="screen" x="12" y="14" width="40" height="26" rx="3"/>
+  <rect class="frame" x="28" y="44" width="8" height="7" rx="1"/>
+  <rect class="frame" x="21" y="50" width="22" height="4" rx="2"/>
+</svg>
